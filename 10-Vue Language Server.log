@@ -1,0 +1,2352 @@
+[Trace - 6:21:29 PM] Sending request 'initialize - (0)'.
+Params: {
+    "processId": 20728,
+    "rootPath": "/Users/jake/work/timeline",
+    "rootUri": "file:///Users/jake/work/timeline",
+    "capabilities": {
+        "workspace": {
+            "applyEdit": true,
+            "workspaceEdit": {
+                "documentChanges": true,
+                "resourceOperations": [
+                    "create",
+                    "rename",
+                    "delete"
+                ],
+                "failureHandling": "textOnlyTransactional"
+            },
+            "didChangeConfiguration": {
+                "dynamicRegistration": true
+            },
+            "didChangeWatchedFiles": {
+                "dynamicRegistration": true
+            },
+            "symbol": {
+                "dynamicRegistration": true,
+                "symbolKind": {
+                    "valueSet": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17,
+                        18,
+                        19,
+                        20,
+                        21,
+                        22,
+                        23,
+                        24,
+                        25,
+                        26
+                    ]
+                }
+            },
+            "executeCommand": {
+                "dynamicRegistration": true
+            },
+            "configuration": true,
+            "workspaceFolders": true
+        },
+        "textDocument": {
+            "publishDiagnostics": {
+                "relatedInformation": true
+            },
+            "synchronization": {
+                "dynamicRegistration": true,
+                "willSave": true,
+                "willSaveWaitUntil": true,
+                "didSave": true
+            },
+            "completion": {
+                "dynamicRegistration": true,
+                "contextSupport": true,
+                "completionItem": {
+                    "snippetSupport": true,
+                    "commitCharactersSupport": true,
+                    "documentationFormat": [
+                        "markdown",
+                        "plaintext"
+                    ],
+                    "deprecatedSupport": true,
+                    "preselectSupport": true
+                },
+                "completionItemKind": {
+                    "valueSet": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17,
+                        18,
+                        19,
+                        20,
+                        21,
+                        22,
+                        23,
+                        24,
+                        25
+                    ]
+                }
+            },
+            "hover": {
+                "dynamicRegistration": true,
+                "contentFormat": [
+                    "markdown",
+                    "plaintext"
+                ]
+            },
+            "signatureHelp": {
+                "dynamicRegistration": true,
+                "signatureInformation": {
+                    "documentationFormat": [
+                        "markdown",
+                        "plaintext"
+                    ]
+                }
+            },
+            "definition": {
+                "dynamicRegistration": true
+            },
+            "references": {
+                "dynamicRegistration": true
+            },
+            "documentHighlight": {
+                "dynamicRegistration": true
+            },
+            "documentSymbol": {
+                "dynamicRegistration": true,
+                "symbolKind": {
+                    "valueSet": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17,
+                        18,
+                        19,
+                        20,
+                        21,
+                        22,
+                        23,
+                        24,
+                        25,
+                        26
+                    ]
+                },
+                "hierarchicalDocumentSymbolSupport": true
+            },
+            "codeAction": {
+                "dynamicRegistration": true,
+                "codeActionLiteralSupport": {
+                    "codeActionKind": {
+                        "valueSet": [
+                            "",
+                            "quickfix",
+                            "refactor",
+                            "refactor.extract",
+                            "refactor.inline",
+                            "refactor.rewrite",
+                            "source",
+                            "source.organizeImports"
+                        ]
+                    }
+                }
+            },
+            "codeLens": {
+                "dynamicRegistration": true
+            },
+            "formatting": {
+                "dynamicRegistration": true
+            },
+            "rangeFormatting": {
+                "dynamicRegistration": true
+            },
+            "onTypeFormatting": {
+                "dynamicRegistration": true
+            },
+            "rename": {
+                "dynamicRegistration": true,
+                "prepareSupport": true
+            },
+            "documentLink": {
+                "dynamicRegistration": true
+            },
+            "typeDefinition": {
+                "dynamicRegistration": true
+            },
+            "implementation": {
+                "dynamicRegistration": true
+            },
+            "colorProvider": {
+                "dynamicRegistration": true
+            },
+            "foldingRange": {
+                "dynamicRegistration": true,
+                "rangeLimit": 5000,
+                "lineFoldingOnly": true
+            }
+        }
+    },
+    "initializationOptions": {
+        "config": {
+            "editor": {
+                "fontFamily": "Noto Sans Mono",
+                "fontWeight": "400",
+                "fontSize": 13,
+                "lineHeight": 0,
+                "letterSpacing": 0,
+                "lineNumbers": "on",
+                "rulers": [
+                    100
+                ],
+                "wordSeparators": "`~!@#$%^&*()-=+[{]}\\|;:'\",.<>/?",
+                "tabSize": 4,
+                "insertSpaces": false,
+                "detectIndentation": true,
+                "roundedSelection": true,
+                "scrollBeyondLastLine": true,
+                "scrollBeyondLastColumn": 5,
+                "smoothScrolling": true,
+                "minimap": {
+                    "enabled": false,
+                    "side": "right",
+                    "showSlider": "mouseover",
+                    "renderCharacters": true,
+                    "maxColumn": 120
+                },
+                "hover": {
+                    "enabled": true,
+                    "delay": 300,
+                    "sticky": true
+                },
+                "find": {
+                    "seedSearchStringFromSelection": true,
+                    "autoFindInSelection": false,
+                    "globalFindClipboard": false
+                },
+                "wordWrap": "off",
+                "wordWrapColumn": 80,
+                "wrappingIndent": "same",
+                "mouseWheelScrollSensitivity": 1,
+                "fastScrollSensitivity": 5,
+                "multiCursorModifier": "alt",
+                "multiCursorMergeOverlapping": true,
+                "quickSuggestions": {
+                    "other": true,
+                    "comments": false,
+                    "strings": false
+                },
+                "quickSuggestionsDelay": 10,
+                "parameterHints": {
+                    "enabled": true,
+                    "cycle": false
+                },
+                "autoClosingBrackets": "beforeWhitespace",
+                "autoClosingQuotes": "languageDefined",
+                "autoSurround": "languageDefined",
+                "formatOnType": false,
+                "formatOnPaste": true,
+                "autoIndent": true,
+                "suggestOnTriggerCharacters": true,
+                "acceptSuggestionOnEnter": "on",
+                "acceptSuggestionOnCommitCharacter": true,
+                "snippetSuggestions": "inline",
+                "emptySelectionClipboard": true,
+                "copyWithSyntaxHighlighting": true,
+                "wordBasedSuggestions": true,
+                "suggestSelection": "recentlyUsed",
+                "suggestFontSize": 0,
+                "suggestLineHeight": 0,
+                "tabCompletion": "off",
+                "suggest": {
+                    "filterGraceful": true,
+                    "localityBonus": false,
+                    "shareSuggestSelections": false,
+                    "snippetsPreventQuickSuggestions": true
+                },
+                "selectionHighlight": true,
+                "occurrencesHighlight": false,
+                "overviewRulerLanes": 3,
+                "overviewRulerBorder": true,
+                "cursorBlinking": "blink",
+                "mouseWheelZoom": false,
+                "cursorSmoothCaretAnimation": false,
+                "cursorStyle": "line",
+                "cursorWidth": 0,
+                "fontLigatures": true,
+                "hideCursorInOverviewRuler": false,
+                "renderWhitespace": "none",
+                "renderControlCharacters": true,
+                "renderIndentGuides": false,
+                "highlightActiveIndentGuide": true,
+                "renderLineHighlight": "line",
+                "codeLens": false,
+                "folding": true,
+                "foldingStrategy": "auto",
+                "showFoldingControls": "mouseover",
+                "matchBrackets": true,
+                "glyphMargin": true,
+                "useTabStops": true,
+                "trimAutoWhitespace": true,
+                "stablePeek": false,
+                "dragAndDrop": true,
+                "accessibilitySupport": "auto",
+                "showUnused": true,
+                "links": true,
+                "colorDecorators": true,
+                "lightbulb": {
+                    "enabled": true
+                },
+                "codeActionsOnSave": {},
+                "codeActionsOnSaveTimeout": 750,
+                "largeFileOptimizations": true,
+                "tokenColorCustomizations": {},
+                "formatOnSave": true,
+                "formatOnSaveTimeout": 750
+            },
+            "diffEditor": {
+                "renderSideBySide": true,
+                "ignoreTrimWhitespace": true,
+                "renderIndicators": true
+            },
+            "http": {
+                "proxy": "",
+                "proxyStrictSSL": true,
+                "proxyAuthorization": null,
+                "proxySupport": "override"
+            },
+            "telemetry": {
+                "enableTelemetry": true,
+                "enableCrashReporter": true
+            },
+            "workbench": {
+                "list": {
+                    "multiSelectModifier": "ctrlCmd",
+                    "openMode": "singleClick",
+                    "keyboardNavigation": "highlight"
+                },
+                "tree": {
+                    "horizontalScrolling": false,
+                    "indent": 8
+                },
+                "editor": {
+                    "showTabs": true,
+                    "highlightModifiedTabs": false,
+                    "labelFormat": "default",
+                    "tabCloseButton": "right",
+                    "tabSizing": "fit",
+                    "focusRecentEditorAfterClose": true,
+                    "showIcons": true,
+                    "enablePreview": true,
+                    "enablePreviewFromQuickOpen": false,
+                    "closeOnFileDelete": false,
+                    "openPositioning": "right",
+                    "openSideBySideDirection": "right",
+                    "closeEmptyGroups": true,
+                    "revealIfOpen": false,
+                    "swipeToNavigate": false,
+                    "restoreViewState": true,
+                    "centeredLayoutAutoResize": true
+                },
+                "commandPalette": {
+                    "history": 50,
+                    "preserveInput": false
+                },
+                "quickOpen": {
+                    "closeOnFocusLost": true,
+                    "preserveInput": false
+                },
+                "settings": {
+                    "openDefaultSettings": false,
+                    "useSplitJSON": false,
+                    "openDefaultKeybindings": true,
+                    "enableNaturalLanguageSearch": true,
+                    "settingsSearchTocBehavior": "filter",
+                    "editor": "ui"
+                },
+                "sideBar": {
+                    "location": "left"
+                },
+                "panel": {
+                    "defaultLocation": "bottom"
+                },
+                "statusBar": {
+                    "visible": true,
+                    "feedback": {
+                        "visible": true
+                    }
+                },
+                "activityBar": {
+                    "visible": true
+                },
+                "view": {
+                    "alwaysShowHeaderActions": false
+                },
+                "fontAliasing": "antialiased",
+                "enableExperiments": true,
+                "useExperimentalGridLayout": true,
+                "startupEditor": "welcomePage",
+                "colorTheme": "Sublime Monokai",
+                "iconTheme": "vs-seti",
+                "colorCustomizations": {
+                    "activityBarBadge.background": "#FF4081",
+                    "list.activeSelectionForeground": "#FF4081",
+                    "list.inactiveSelectionForeground": "#FF4081",
+                    "list.highlightForeground": "#FF4081",
+                    "scrollbarSlider.activeBackground": "#FF408150",
+                    "editorSuggestWidget.highlightForeground": "#FF4081",
+                    "textLink.foreground": "#FF4081",
+                    "progressBar.background": "#FF4081",
+                    "pickerGroup.foreground": "#FF4081",
+                    "tab.activeBorder": "#FF4081",
+                    "notificationLink.foreground": "#FF4081"
+                },
+                "tips": {
+                    "enabled": true
+                }
+            },
+            "breadcrumbs": {
+                "enabled": false,
+                "filePath": "on",
+                "symbolPath": "on",
+                "symbolSortOrder": "position"
+            },
+            "zenMode": {
+                "fullScreen": true,
+                "centerLayout": true,
+                "hideTabs": true,
+                "hideStatusBar": true,
+                "hideActivityBar": true,
+                "hideLineNumbers": true,
+                "restore": false
+            },
+            "problems": {
+                "decorations": {
+                    "enabled": true
+                },
+                "autoReveal": true
+            },
+            "keyboard": {
+                "dispatch": "code",
+                "touchbar": {
+                    "enabled": true
+                }
+            },
+            "comments": {
+                "openPanel": "openOnSessionStartWithComments"
+            },
+            "outline": {
+                "icons": true,
+                "problems": {
+                    "enabled": true,
+                    "colors": true,
+                    "badges": true
+                }
+            },
+            "scm": {
+                "alwaysShowProviders": false,
+                "diffDecorations": "all",
+                "diffDecorationsGutterWidth": 3,
+                "alwaysShowActions": false
+            },
+            "debug": {
+                "allowBreakpointsEverywhere": false,
+                "openExplorerOnEnd": false,
+                "inlineValues": false,
+                "toolBarLocation": "floating",
+                "showInStatusBar": "onFirstSessionStart",
+                "internalConsoleOptions": "openOnFirstSessionStart",
+                "openDebug": "openOnSessionStart",
+                "enableAllHovers": false,
+                "node": {
+                    "autoAttach": "disabled"
+                }
+            },
+            "launch": {
+                "configurations": [],
+                "compounds": []
+            },
+            "window": {
+                "openFilesInNewWindow": "off",
+                "openFoldersInNewWindow": "default",
+                "openWithoutArgumentsInNewWindow": "off",
+                "restoreWindows": "one",
+                "restoreFullscreen": false,
+                "zoomLevel": 0,
+                "title": "${activeEditorShort}${separator}${rootName}",
+                "newWindowDimensions": "inherit",
+                "closeWhenEmpty": false,
+                "doubleClickIconToClose": false,
+                "titleBarStyle": "native",
+                "nativeTabs": true,
+                "nativeFullScreen": true,
+                "clickThroughInactive": true
+            },
+            "files": {
+                "exclude": {
+                    "**/.git": true,
+                    "**/.svn": true,
+                    "**/.hg": true,
+                    "**/CVS": true,
+                    "**/.DS_Store": true
+                },
+                "associations": {
+                    "*.vue": "vue"
+                },
+                "encoding": "utf8",
+                "autoGuessEncoding": false,
+                "eol": "auto",
+                "enableTrash": true,
+                "trimTrailingWhitespace": true,
+                "insertFinalNewline": false,
+                "trimFinalNewlines": false,
+                "autoSave": "onFocusChange",
+                "autoSaveDelay": 1000,
+                "watcherExclude": {
+                    "**/.git/objects/**": true,
+                    "**/.git/subtree-cache/**": true,
+                    "**/node_modules/**": true
+                },
+                "hotExit": "onExit",
+                "useExperimentalFileWatcher": false,
+                "defaultLanguage": "",
+                "maxMemoryForLargeFilesMB": 4096
+            },
+            "explorer": {
+                "openEditors": {
+                    "visible": 9
+                },
+                "autoReveal": true,
+                "enableDragAndDrop": true,
+                "confirmDragAndDrop": true,
+                "confirmDelete": true,
+                "sortOrder": "default",
+                "decorations": {
+                    "colors": true,
+                    "badges": true
+                }
+            },
+            "search": {
+                "exclude": {
+                    "**/node_modules": true,
+                    "**/bower_components": true
+                },
+                "useRipgrep": true,
+                "useIgnoreFiles": true,
+                "useGlobalIgnoreFiles": false,
+                "quickOpen": {
+                    "includeSymbols": false,
+                    "includeHistory": true
+                },
+                "followSymlinks": true,
+                "smartCase": false,
+                "globalFindClipboard": false,
+                "location": "sidebar",
+                "collapseResults": "auto",
+                "useReplacePreview": true,
+                "showLineNumbers": false,
+                "runInExtensionHost": false,
+                "usePCRE2": false,
+                "actionsPosition": "auto"
+            },
+            "searchRipgrep": {
+                "enable": false
+            },
+            "terminal": {
+                "integrated": {
+                    "shell": {
+                        "linux": "/bin/bash",
+                        "osx": "/bin/bash",
+                        "windows": "cmd.exe"
+                    },
+                    "shellArgs": {
+                        "linux": [],
+                        "osx": [
+                            "-l"
+                        ],
+                        "windows": []
+                    },
+                    "macOptionIsMeta": false,
+                    "macOptionClickForcesSelection": false,
+                    "copyOnSelection": false,
+                    "drawBoldTextInBrightColors": true,
+                    "fontFamily": "Hasklig",
+                    "fontSize": 12,
+                    "letterSpacing": 0,
+                    "lineHeight": 1,
+                    "fontWeight": "normal",
+                    "fontWeightBold": "bold",
+                    "cursorBlinking": false,
+                    "cursorStyle": "block",
+                    "scrollback": 1000,
+                    "setLocaleVariables": true,
+                    "rendererType": "auto",
+                    "rightClickBehavior": "selectWord",
+                    "cwd": "",
+                    "confirmOnExit": false,
+                    "enableBell": false,
+                    "commandsToSkipShell": [],
+                    "env": {
+                        "osx": {},
+                        "linux": {},
+                        "windows": {}
+                    },
+                    "showExitAlert": true,
+                    "splitCwd": "inherited",
+                    "windowsEnableConpty": false
+                },
+                "explorerKind": "integrated",
+                "external": {
+                    "windowsExec": "C:\\Windows\\System32\\cmd.exe",
+                    "osxExec": "Terminal.app",
+                    "linuxExec": "xterm"
+                }
+            },
+            "extensions": {
+                "autoUpdate": true,
+                "autoCheckUpdates": true,
+                "ignoreRecommendations": false,
+                "showRecommendationsOnlyOnDemand": false,
+                "closeExtensionDetailsOnViewChange": false
+            },
+            "[git-commit]": {
+                "editor.rulers": [
+                    72
+                ]
+            },
+            "[go]": {
+                "editor.insertSpaces": false
+            },
+            "[json]": {
+                "editor.quickSuggestions": {
+                    "strings": true
+                }
+            },
+            "[makefile]": {
+                "editor.insertSpaces": false
+            },
+            "[markdown]": {
+                "editor.wordWrap": "on",
+                "editor.quickSuggestions": false
+            },
+            "[yaml]": {
+                "editor.insertSpaces": true,
+                "editor.tabSize": 2,
+                "editor.autoIndent": false
+            },
+            "[elixir]": {
+                "editor.insertSpaces": true,
+                "editor.tabSize": 2,
+                "editor.wordBasedSuggestions": false,
+                "editor.formatOnType": true,
+                "editor.acceptSuggestionOnEnter": "off",
+                "editor.trimAutoWhitespace": false,
+                "files.trimTrailingWhitespace": true,
+                "files.insertFinalNewline": true
+            },
+            "[cpp]": {
+                "editor.wordBasedSuggestions": false
+            },
+            "[c]": {
+                "editor.wordBasedSuggestions": false
+            },
+            "css": {
+                "experimental": {
+                    "customData": []
+                },
+                "validate": true,
+                "lint": {
+                    "compatibleVendorPrefixes": "ignore",
+                    "vendorPrefix": "warning",
+                    "duplicateProperties": "ignore",
+                    "emptyRules": "warning",
+                    "importStatement": "ignore",
+                    "boxModel": "ignore",
+                    "universalSelector": "ignore",
+                    "zeroUnits": "ignore",
+                    "fontFaceProperties": "warning",
+                    "hexColorLength": "error",
+                    "argumentsInColorFunction": "error",
+                    "unknownProperties": "warning",
+                    "validProperties": [],
+                    "ieHack": "ignore",
+                    "unknownVendorSpecificProperties": "ignore",
+                    "propertyIgnoredDueToDisplay": "warning",
+                    "important": "ignore",
+                    "float": "ignore",
+                    "idSelector": "ignore",
+                    "unknownAtRules": "warning"
+                },
+                "trace": {
+                    "server": "off"
+                }
+            },
+            "scss": {
+                "validate": true,
+                "lint": {
+                    "compatibleVendorPrefixes": "ignore",
+                    "vendorPrefix": "warning",
+                    "duplicateProperties": "ignore",
+                    "emptyRules": "warning",
+                    "importStatement": "ignore",
+                    "boxModel": "ignore",
+                    "universalSelector": "ignore",
+                    "zeroUnits": "ignore",
+                    "fontFaceProperties": "warning",
+                    "hexColorLength": "error",
+                    "argumentsInColorFunction": "error",
+                    "unknownProperties": "warning",
+                    "validProperties": [],
+                    "ieHack": "ignore",
+                    "unknownVendorSpecificProperties": "ignore",
+                    "propertyIgnoredDueToDisplay": "warning",
+                    "important": "ignore",
+                    "float": "ignore",
+                    "idSelector": "ignore"
+                }
+            },
+            "less": {
+                "validate": true,
+                "lint": {
+                    "compatibleVendorPrefixes": "ignore",
+                    "vendorPrefix": "warning",
+                    "duplicateProperties": "ignore",
+                    "emptyRules": "warning",
+                    "importStatement": "ignore",
+                    "boxModel": "ignore",
+                    "universalSelector": "ignore",
+                    "zeroUnits": "ignore",
+                    "fontFaceProperties": "warning",
+                    "hexColorLength": "error",
+                    "argumentsInColorFunction": "error",
+                    "unknownProperties": "warning",
+                    "validProperties": [],
+                    "ieHack": "ignore",
+                    "unknownVendorSpecificProperties": "ignore",
+                    "propertyIgnoredDueToDisplay": "warning",
+                    "important": "ignore",
+                    "float": "ignore",
+                    "idSelector": "ignore"
+                }
+            },
+            "emmet": {
+                "showExpandedAbbreviation": "always",
+                "showAbbreviationSuggestions": true,
+                "includeLanguages": {},
+                "variables": {},
+                "syntaxProfiles": {},
+                "excludeLanguages": [
+                    "markdown"
+                ],
+                "extensionsPath": null,
+                "triggerExpansionOnTab": false,
+                "preferences": {},
+                "showSuggestionsAsSnippets": false,
+                "optimizeStylesheetParsing": true
+            },
+            "git": {
+                "enabled": true,
+                "path": null,
+                "autoRepositoryDetection": true,
+                "autorefresh": true,
+                "autofetch": false,
+                "autofetchPeriod": 180,
+                "branchValidationRegex": "",
+                "branchWhitespaceChar": "-",
+                "confirmSync": true,
+                "countBadge": "all",
+                "checkoutType": "all",
+                "ignoreLegacyWarning": false,
+                "ignoreMissingGitWarning": false,
+                "ignoreLimitWarning": false,
+                "defaultCloneDirectory": null,
+                "enableSmartCommit": true,
+                "enableCommitSigning": false,
+                "confirmEmptyCommits": true,
+                "decorations": {
+                    "enabled": true
+                },
+                "promptToSaveFilesBeforeCommit": true,
+                "postCommitCommand": "none",
+                "showInlineOpenFileAction": true,
+                "showPushSuccessNotification": false,
+                "inputValidation": "warn",
+                "inputValidationLength": 72,
+                "inputValidationSubjectLength": null,
+                "detectSubmodules": true,
+                "detectSubmodulesLimit": 10,
+                "alwaysShowStagedChangesResourceGroup": false,
+                "alwaysSignOff": false,
+                "ignoredRepositories": [],
+                "scanRepositories": [],
+                "showProgress": true,
+                "rebaseWhenSync": false,
+                "fetchOnPull": false,
+                "autoStash": false,
+                "allowForcePush": false,
+                "useForcePushWithLease": true,
+                "confirmForcePush": true,
+                "openDiffOnClick": true
+            },
+            "grunt": {
+                "autoDetect": "on"
+            },
+            "gulp": {
+                "autoDetect": "on"
+            },
+            "html": {
+                "experimental": {
+                    "customData": []
+                },
+                "format": {
+                    "enable": true,
+                    "wrapLineLength": 120,
+                    "unformatted": "wbr",
+                    "contentUnformatted": "pre,code,textarea",
+                    "indentInnerHtml": false,
+                    "preserveNewLines": true,
+                    "maxPreserveNewLines": null,
+                    "indentHandlebars": false,
+                    "endWithNewline": false,
+                    "extraLiners": "head, body, /html",
+                    "wrapAttributes": "auto"
+                },
+                "suggest": {
+                    "angular1": false,
+                    "ionic": false,
+                    "html5": true
+                },
+                "validate": {
+                    "scripts": true,
+                    "styles": true
+                },
+                "autoClosingTags": true,
+                "trace": {
+                    "server": "off"
+                }
+            },
+            "jake": {
+                "autoDetect": "on"
+            },
+            "json": {
+                "schemas": [],
+                "format": {
+                    "enable": true
+                },
+                "trace": {
+                    "server": "off"
+                },
+                "colorDecorators": {
+                    "enable": true
+                }
+            },
+            "markdown": {
+                "styles": [],
+                "preview": {
+                    "breaks": false,
+                    "linkify": true,
+                    "fontFamily": "-apple-system, BlinkMacSystemFont, 'Segoe WPC', 'Segoe UI', 'Ubuntu', 'Droid Sans', sans-serif",
+                    "fontSize": 14,
+                    "lineHeight": 1.6,
+                    "scrollPreviewWithEditor": true,
+                    "scrollPreviewWithEditorSelection": true,
+                    "markEditorSelection": true,
+                    "scrollEditorWithPreview": true,
+                    "doubleClickToSwitchToEditor": true,
+                    "openMarkdownLinks": "inPreview"
+                },
+                "trace": "off"
+            },
+            "merge-conflict": {
+                "codeLens": {
+                    "enabled": true
+                },
+                "decorators": {
+                    "enabled": true
+                },
+                "autoNavigateNextConflict": {
+                    "enabled": false
+                }
+            },
+            "references": {
+                "preferredLocation": "peek"
+            },
+            "npm": {
+                "autoDetect": "on",
+                "runSilent": false,
+                "packageManager": "npm",
+                "exclude": "",
+                "enableScriptExplorer": false,
+                "scriptExplorerAction": "open",
+                "fetchOnlinePackageInfo": true,
+                "runInTerminal": true,
+                "includeDirectories": [],
+                "useRootDirectory": true,
+                "bin": "npm",
+                "validate": {
+                    "enable": true
+                }
+            },
+            "php": {
+                "suggest": {
+                    "basic": true
+                },
+                "validate": {
+                    "enable": true,
+                    "executablePath": null,
+                    "run": "onSave"
+                }
+            },
+            "typescript": {
+                "tsdk": null,
+                "disableAutomaticTypeAcquisition": false,
+                "npm": "/usr/local/bin/npm",
+                "check": {
+                    "npmIsInstalled": true
+                },
+                "referencesCodeLens": {
+                    "enabled": false
+                },
+                "implementationsCodeLens": {
+                    "enabled": false
+                },
+                "tsserver": {
+                    "log": "off",
+                    "pluginPaths": [],
+                    "trace": "off"
+                },
+                "suggest": {
+                    "completeFunctionCalls": false,
+                    "paths": true,
+                    "autoImports": true,
+                    "completeJSDocs": true,
+                    "enabled": true
+                },
+                "reportStyleChecksAsWarnings": true,
+                "validate": {
+                    "enable": true
+                },
+                "format": {
+                    "enable": true,
+                    "insertSpaceAfterCommaDelimiter": true,
+                    "insertSpaceAfterConstructor": false,
+                    "insertSpaceAfterSemicolonInForStatements": true,
+                    "insertSpaceBeforeAndAfterBinaryOperators": true,
+                    "insertSpaceAfterKeywordsInControlFlowStatements": true,
+                    "insertSpaceAfterFunctionKeywordForAnonymousFunctions": true,
+                    "insertSpaceBeforeFunctionParenthesis": false,
+                    "insertSpaceAfterOpeningAndBeforeClosingNonemptyParenthesis": false,
+                    "insertSpaceAfterOpeningAndBeforeClosingNonemptyBrackets": false,
+                    "insertSpaceAfterOpeningAndBeforeClosingNonemptyBraces": true,
+                    "insertSpaceAfterOpeningAndBeforeClosingTemplateStringBraces": false,
+                    "insertSpaceAfterOpeningAndBeforeClosingJsxExpressionBraces": false,
+                    "insertSpaceAfterTypeAssertion": false,
+                    "placeOpenBraceOnNewLineForFunctions": false,
+                    "placeOpenBraceOnNewLineForControlBlocks": false
+                },
+                "tsc": {
+                    "autoDetect": "on"
+                },
+                "locale": null,
+                "suggestionActions": {
+                    "enabled": true
+                },
+                "preferences": {
+                    "quoteStyle": "auto",
+                    "importModuleSpecifier": "auto"
+                },
+                "updateImportsOnFileMove": {
+                    "enabled": "prompt"
+                },
+                "autoClosingTags": true,
+                "surveys": {
+                    "enabled": true
+                }
+            },
+            "javascript": {
+                "referencesCodeLens": {
+                    "enabled": false
+                },
+                "suggest": {
+                    "completeFunctionCalls": false,
+                    "names": true,
+                    "paths": true,
+                    "autoImports": true,
+                    "completeJSDocs": true,
+                    "enabled": true
+                },
+                "validate": {
+                    "enable": true
+                },
+                "format": {
+                    "enable": true,
+                    "insertSpaceAfterCommaDelimiter": true,
+                    "insertSpaceAfterConstructor": false,
+                    "insertSpaceAfterSemicolonInForStatements": true,
+                    "insertSpaceBeforeAndAfterBinaryOperators": true,
+                    "insertSpaceAfterKeywordsInControlFlowStatements": true,
+                    "insertSpaceAfterFunctionKeywordForAnonymousFunctions": true,
+                    "insertSpaceBeforeFunctionParenthesis": false,
+                    "insertSpaceAfterOpeningAndBeforeClosingNonemptyParenthesis": false,
+                    "insertSpaceAfterOpeningAndBeforeClosingNonemptyBrackets": false,
+                    "insertSpaceAfterOpeningAndBeforeClosingNonemptyBraces": true,
+                    "insertSpaceAfterOpeningAndBeforeClosingTemplateStringBraces": false,
+                    "insertSpaceAfterOpeningAndBeforeClosingJsxExpressionBraces": false,
+                    "placeOpenBraceOnNewLineForFunctions": false,
+                    "placeOpenBraceOnNewLineForControlBlocks": false
+                },
+                "implicitProjectConfig": {
+                    "checkJs": false,
+                    "experimentalDecorators": true
+                },
+                "suggestionActions": {
+                    "enabled": true
+                },
+                "preferences": {
+                    "quoteStyle": "auto",
+                    "importModuleSpecifier": "auto"
+                },
+                "updateImportsOnFileMove": {
+                    "enabled": "prompt"
+                },
+                "autoClosingTags": true
+            },
+            "jsDocCompletion": {
+                "enabled": true
+            },
+            "vscode_custom_css": {
+                "imports": [
+                    "file:///Users/jake/Downloads/styles.css"
+                ],
+                "statusbar": true,
+                "policy": false
+            },
+            "solargraph": {
+                "transport": "socket",
+                "externalServer": {
+                    "host": "localhost",
+                    "port": 7658
+                },
+                "commandPath": "solargraph",
+                "useBundler": false,
+                "bundlerPath": "bundle",
+                "checkGemVersion": true,
+                "completion": true,
+                "hover": true,
+                "diagnostics": false,
+                "autoformat": false,
+                "formatting": false,
+                "symbols": true,
+                "definitions": true,
+                "rename": true,
+                "references": true,
+                "folding": true,
+                "logLevel": "warn"
+            },
+            "npm-intellisense": {
+                "scanDevDependencies": false,
+                "recursivePackageJsonLookup": true,
+                "packageSubfoldersIntellisense": false,
+                "showBuildInLibs": false,
+                "importES6": true,
+                "importQuotes": "'",
+                "importLinebreak": ";\r\n",
+                "importDeclarationType": "const"
+            },
+            "path-intellisense": {
+                "extensionOnImport": false,
+                "mappings": {},
+                "showHiddenFiles": false,
+                "autoSlashAfterDirectory": false,
+                "absolutePathToWorkspace": true
+            },
+            "vscode-postgres": {
+                "defaultConnection": "",
+                "defaultDatabase": "",
+                "showExplorer": true,
+                "prettyPrintJSONfields": false,
+                "setConnectionFromExplorer": "always",
+                "tableColumnSortOrder": "db-order",
+                "intervalFormat": "iso_8601",
+                "virtualFolders": [
+                    "functions"
+                ]
+            },
+            "vue-peek": {
+                "supportedLanguages": [
+                    "vue"
+                ],
+                "targetFileExtensions": [
+                    ".vue"
+                ]
+            },
+            "eslint": {
+                "enable": true,
+                "packageManager": "npm",
+                "alwaysShowStatus": false,
+                "nodePath": null,
+                "_legacyModuleResolve": false,
+                "options": {},
+                "trace": {
+                    "server": "off"
+                },
+                "run": "onType",
+                "autoFixOnSave": false,
+                "workingDirectories": [],
+                "validate": [
+                    "javascript",
+                    "javascriptreact"
+                ],
+                "provideLintTask": false,
+                "runtime": null,
+                "codeAction": {
+                    "disableRuleComment": {
+                        "enable": true,
+                        "location": "newLine"
+                    },
+                    "showDocumentation": {
+                        "enable": true
+                    }
+                }
+            },
+            "gitHistory": {
+                "hideCommitViewExplorer": false,
+                "showEditorTitleMenuBarIcons": true,
+                "pageSize": 100
+            },
+            "gitlens": {
+                "blame": {
+                    "avatars": true,
+                    "compact": true,
+                    "dateFormat": null,
+                    "format": "${message|40?} ${agoOrDate|14-}",
+                    "heatmap": {
+                        "enabled": true,
+                        "location": "right"
+                    },
+                    "highlight": {
+                        "enabled": true,
+                        "locations": [
+                            "gutter",
+                            "line",
+                            "overview"
+                        ]
+                    },
+                    "ignoreWhitespace": false,
+                    "separateLines": true,
+                    "toggleMode": "file"
+                },
+                "codeLens": {
+                    "authors": {
+                        "command": "gitlens.toggleFileBlame",
+                        "enabled": true
+                    },
+                    "enabled": true,
+                    "includeSingleLineSymbols": false,
+                    "recentChange": {
+                        "command": "gitlens.showQuickCommitFileDetails",
+                        "enabled": true
+                    },
+                    "scopes": [
+                        "document",
+                        "containers"
+                    ],
+                    "scopesByLanguage": [
+                        {
+                            "language": "azure-pipelines",
+                            "scopes": [
+                                "document"
+                            ]
+                        },
+                        {
+                            "language": "css",
+                            "scopes": [
+                                "document"
+                            ]
+                        },
+                        {
+                            "language": "html",
+                            "scopes": [
+                                "document"
+                            ]
+                        },
+                        {
+                            "language": "json",
+                            "scopes": [
+                                "document"
+                            ]
+                        },
+                        {
+                            "language": "jsonc",
+                            "scopes": [
+                                "document"
+                            ]
+                        },
+                        {
+                            "language": "less",
+                            "scopes": [
+                                "document"
+                            ]
+                        },
+                        {
+                            "language": "postcss",
+                            "scopes": [
+                                "document"
+                            ]
+                        },
+                        {
+                            "language": "python",
+                            "symbolScopes": [
+                                "!Module"
+                            ]
+                        },
+                        {
+                            "language": "scss",
+                            "scopes": [
+                                "document"
+                            ]
+                        },
+                        {
+                            "language": "stylus",
+                            "scopes": [
+                                "document"
+                            ]
+                        },
+                        {
+                            "language": "vue",
+                            "scopes": [
+                                "document"
+                            ]
+                        },
+                        {
+                            "language": "yaml",
+                            "scopes": [
+                                "document"
+                            ]
+                        }
+                    ],
+                    "symbolScopes": []
+                },
+                "currentLine": {
+                    "dateFormat": null,
+                    "enabled": true,
+                    "format": "${authorAgoOrDate} • ${message}",
+                    "scrollable": true
+                },
+                "debug": false,
+                "defaultDateFormat": null,
+                "defaultDateShortFormat": null,
+                "defaultDateStyle": "relative",
+                "defaultGravatarsStyle": "robohash",
+                "heatmap": {
+                    "ageThreshold": "90",
+                    "coldColor": "#0a60f6",
+                    "hotColor": "#f66a0a",
+                    "toggleMode": "file"
+                },
+                "hovers": {
+                    "annotations": {
+                        "changes": true,
+                        "details": true,
+                        "enabled": true,
+                        "over": "line"
+                    },
+                    "currentLine": {
+                        "changes": true,
+                        "details": true,
+                        "enabled": true,
+                        "over": "annotation"
+                    },
+                    "avatars": true,
+                    "detailsMarkdownFormat": "[${avatar} &nbsp;__${author}__](mailto:${email}), ${ago} &nbsp; _(${date})_ ${message}\n\n${commands}",
+                    "enabled": true
+                },
+                "insiders": false,
+                "keymap": "chorded",
+                "liveshare": {
+                    "allowGuestAccess": true
+                },
+                "menus": {
+                    "editor": {
+                        "blame": false,
+                        "clipboard": true,
+                        "compare": true,
+                        "details": false,
+                        "history": false,
+                        "remote": false
+                    },
+                    "editorGroup": {
+                        "blame": true,
+                        "compare": true
+                    },
+                    "editorTab": {
+                        "clipboard": true,
+                        "compare": true,
+                        "history": true,
+                        "remote": true
+                    },
+                    "explorer": {
+                        "clipboard": true,
+                        "compare": true,
+                        "history": true,
+                        "remote": true
+                    },
+                    "scmGroup": {
+                        "compare": true,
+                        "openClose": true,
+                        "stash": true,
+                        "stashInline": true
+                    },
+                    "scmItem": {
+                        "clipboard": true,
+                        "compare": true,
+                        "history": true,
+                        "remote": true,
+                        "stash": true
+                    }
+                },
+                "mode": {
+                    "active": "",
+                    "statusBar": {
+                        "enabled": true,
+                        "alignment": "right"
+                    }
+                },
+                "modes": {
+                    "zen": {
+                        "name": "Zen",
+                        "statusBarItemName": "Zen",
+                        "description": "for a zen-like experience, disables many visual features",
+                        "codeLens": false,
+                        "currentLine": false,
+                        "hovers": false,
+                        "statusBar": false
+                    },
+                    "review": {
+                        "name": "Review",
+                        "statusBarItemName": "Reviewing",
+                        "description": "for reviewing code, enables many visual features",
+                        "codeLens": true,
+                        "currentLine": true,
+                        "hovers": true
+                    }
+                },
+                "outputLevel": "errors",
+                "recentChanges": {
+                    "highlight": {
+                        "locations": [
+                            "gutter",
+                            "line",
+                            "overview"
+                        ]
+                    },
+                    "toggleMode": "file"
+                },
+                "remotes": null,
+                "settings": {
+                    "mode": "simple"
+                },
+                "showWhatsNewAfterUpgrades": true,
+                "statusBar": {
+                    "alignment": "right",
+                    "command": "gitlens.showQuickCommitDetails",
+                    "dateFormat": null,
+                    "enabled": true,
+                    "format": "${authorAgoOrDate}",
+                    "reduceFlicker": false
+                },
+                "strings": {
+                    "codeLens": {
+                        "unsavedChanges": {
+                            "recentChangeAndAuthors": "Unsaved changes (cannot determine recent change or authors)",
+                            "recentChangeOnly": "Unsaved changes (cannot determine recent change)",
+                            "authorsOnly": "Unsaved changes (cannot determine authors)"
+                        }
+                    }
+                },
+                "views": {
+                    "commitFileFormat": "${file}",
+                    "commitFileDescriptionFormat": "${directory}",
+                    "commitFormat": "${message}",
+                    "commitDescriptionFormat": "${changes  •  }${authorAgoOrDate}",
+                    "compare": {
+                        "avatars": true,
+                        "enabled": true,
+                        "files": {
+                            "compact": true,
+                            "layout": "auto",
+                            "threshold": 5
+                        },
+                        "location": "gitlens"
+                    },
+                    "defaultItemLimit": 10,
+                    "fileHistory": {
+                        "avatars": true,
+                        "enabled": true,
+                        "location": "gitlens"
+                    },
+                    "lineHistory": {
+                        "avatars": true,
+                        "enabled": true,
+                        "location": "gitlens"
+                    },
+                    "repositories": {
+                        "autoRefresh": true,
+                        "autoReveal": true,
+                        "avatars": true,
+                        "branches": {
+                            "layout": "tree"
+                        },
+                        "compact": false,
+                        "enabled": true,
+                        "files": {
+                            "compact": true,
+                            "layout": "auto",
+                            "threshold": 5
+                        },
+                        "includeWorkingTree": true,
+                        "location": "gitlens",
+                        "showTrackingBranch": true
+                    },
+                    "search": {
+                        "avatars": true,
+                        "enabled": true,
+                        "files": {
+                            "compact": true,
+                            "layout": "auto",
+                            "threshold": 5
+                        },
+                        "location": "gitlens"
+                    },
+                    "showRelativeDateMarkers": true,
+                    "stashFileFormat": "${file}",
+                    "stashFileDescriptionFormat": "${directory}",
+                    "stashFormat": "${message}",
+                    "stashDescriptionFormat": "${changes  •  }${agoOrDate}",
+                    "statusFileFormat": "${working  }${file}",
+                    "statusFileDescriptionFormat": "${directory}"
+                },
+                "advanced": {
+                    "abbreviatedShaLength": "7",
+                    "blame": {
+                        "customArguments": null,
+                        "delayAfterEdit": 5000,
+                        "sizeThresholdAfterEdit": 5000
+                    },
+                    "caching": {
+                        "enabled": true
+                    },
+                    "fileHistoryFollowsRenames": true,
+                    "maxListItems": 200,
+                    "messages": {
+                        "suppressCommitHasNoPreviousCommitWarning": false,
+                        "suppressCommitNotFoundWarning": false,
+                        "suppressFileNotUnderSourceControlWarning": false,
+                        "suppressGitDisabledWarning": false,
+                        "suppressGitVersionWarning": false,
+                        "suppressLineUncommittedWarning": false,
+                        "suppressNoRepositoryWarning": false,
+                        "suppressSupportGitLensNotification": false,
+                        "suppressResultsExplorerNotice": false,
+                        "suppressShowKeyBindingsNotice": true,
+                        "suppressUpdateNotice": false,
+                        "suppressWelcomeNotice": true
+                    },
+                    "quickPick": {
+                        "closeOnFocusOut": true
+                    },
+                    "repositorySearchDepth": 1,
+                    "telemetry": {
+                        "enabled": true
+                    }
+                }
+            },
+            "materialTheme": {
+                "accent": "Blue"
+            },
+            "prettier": {
+                "disableLanguages": [
+                    "vue"
+                ],
+                "eslintIntegration": false,
+                "tslintIntegration": false,
+                "stylelintIntegration": false,
+                "requireConfig": false,
+                "ignorePath": ".prettierignore",
+                "printWidth": 100,
+                "tabWidth": 2,
+                "singleQuote": false,
+                "trailingComma": "none",
+                "bracketSpacing": true,
+                "jsxBracketSameLine": false,
+                "parser": "babylon",
+                "semi": true,
+                "useTabs": false,
+                "proseWrap": "preserve",
+                "arrowParens": "avoid",
+                "jsxSingleQuote": false,
+                "htmlWhitespaceSensitivity": "css",
+                "endOfLine": "auto"
+            },
+            "auto-close-tag": {
+                "activationOnLanguage": [
+                    "xml",
+                    "php",
+                    "blade",
+                    "ejs",
+                    "jinja",
+                    "javascript",
+                    "javascriptreact",
+                    "typescript",
+                    "typescriptreact",
+                    "plaintext",
+                    "markdown",
+                    "vue",
+                    "liquid",
+                    "erb",
+                    "lang-cfml",
+                    "cfml",
+                    "HTML (Eex)"
+                ],
+                "excludedTags": [
+                    "area",
+                    "base",
+                    "br",
+                    "col",
+                    "command",
+                    "embed",
+                    "hr",
+                    "img",
+                    "input",
+                    "keygen",
+                    "link",
+                    "meta",
+                    "param",
+                    "source",
+                    "track",
+                    "wbr"
+                ],
+                "SublimeText3Mode": false,
+                "enableAutoCloseTag": true,
+                "enableAutoCloseSelfClosingTag": true,
+                "fullMode": false
+            },
+            "auto-rename-tag": {
+                "activationOnLanguage": [
+                    "*"
+                ]
+            },
+            "elixirLS": {
+                "dialyzerEnabled": false,
+                "dialyzerWarnOpts": [],
+                "mixEnv": "test",
+                "projectDir": "",
+                "fetchDeps": true,
+                "suggestSpecs": true
+            },
+            "C_Cpp": {
+                "clang_format_path": null,
+                "clang_format_style": "file",
+                "clang_format_fallbackStyle": "Visual Studio",
+                "clang_format_sortIncludes": null,
+                "intelliSenseEngine": "Default",
+                "intelliSenseEngineFallback": "Enabled",
+                "autocomplete": "Default",
+                "errorSquiggles": "Enabled",
+                "dimInactiveRegions": true,
+                "inactiveRegionOpacity": 0.55,
+                "inactiveRegionForegroundColor": null,
+                "inactiveRegionBackgroundColor": null,
+                "formatting": "Default",
+                "navigation": {
+                    "length": 60
+                },
+                "loggingLevel": "Error",
+                "autoAddFileAssociations": true,
+                "workspaceParsingPriority": "highest",
+                "workspaceSymbols": "Just My Code",
+                "exclusionPolicy": "checkFolders",
+                "preferredPathSeparator": "Forward Slash",
+                "commentContinuationPatterns": [
+                    "/**"
+                ],
+                "configurationWarnings": "Enabled",
+                "default": {
+                    "includePath": null,
+                    "defines": null,
+                    "macFrameworkPath": null,
+                    "windowsSdkVersion": null,
+                    "compileCommands": null,
+                    "forcedInclude": null,
+                    "intelliSenseMode": null,
+                    "compilerPath": null,
+                    "cStandard": null,
+                    "cppStandard": null,
+                    "configurationProvider": null,
+                    "browse": {
+                        "path": null,
+                        "databaseFilename": null,
+                        "limitSymbolsToIncludedHeaders": true
+                    },
+                    "systemIncludePath": null
+                },
+                "updateChannel": "Default"
+            },
+            "csharp": {
+                "format": {
+                    "enable": true
+                },
+                "suppressDotnetInstallWarning": false,
+                "unitTestDebuggingOptions": {},
+                "suppressDotnetRestoreNotification": false,
+                "suppressProjectJsonWarning": false,
+                "suppressHiddenDiagnostics": true,
+                "referencesCodeLens": {
+                    "enabled": true
+                },
+                "testsCodeLens": {
+                    "enabled": true
+                }
+            },
+            "omnisharp": {
+                "path": null,
+                "useGlobalMono": "auto",
+                "monoPath": null,
+                "waitForDebugger": false,
+                "loggingLevel": "information",
+                "autoStart": true,
+                "projectLoadTimeout": 60,
+                "maxProjectResults": 250,
+                "defaultLaunchSolution": null,
+                "useEditorFormattingSettings": true,
+                "minFindSymbolsFilterLength": 0,
+                "maxFindSymbolsItems": 1000,
+                "disableMSBuildDiagnosticWarning": false
+            },
+            "razor": {
+                "plugin": {
+                    "path": null
+                },
+                "devmode": false,
+                "disabled": false,
+                "languageServer": {
+                    "directory": null,
+                    "debug": false
+                },
+                "trace": "Off"
+            },
+            "mono-debug": {
+                "exceptionOptions": {
+                    "System.Exception": "never",
+                    "System.SystemException": "never",
+                    "System.ArithmeticException": "never",
+                    "System.ArrayTypeMismatchException": "never",
+                    "System.DivideByZeroException": "never",
+                    "System.IndexOutOfRangeException": "never",
+                    "System.InvalidCastException": "never",
+                    "System.NullReferenceException": "never",
+                    "System.OutOfMemoryException": "never",
+                    "System.OverflowException": "never",
+                    "System.StackOverflowException": "never",
+                    "System.TypeInitializationException": "never"
+                }
+            },
+            "vetur": {
+                "completion": {
+                    "autoImport": true,
+                    "useScaffoldSnippets": true,
+                    "tagCasing": "kebab"
+                },
+                "grammar": {
+                    "customBlocks": {
+                        "docs": "md",
+                        "i18n": "json"
+                    }
+                },
+                "validation": {
+                    "template": true,
+                    "style": true,
+                    "script": true
+                },
+                "format": {
+                    "options": {
+                        "tabSize": 2,
+                        "useTabs": false
+                    },
+                    "defaultFormatter": {
+                        "html": "prettyhtml",
+                        "css": "prettier",
+                        "postcss": "prettier",
+                        "scss": "prettier",
+                        "less": "prettier",
+                        "stylus": "stylus-supremacy",
+                        "js": "prettier",
+                        "ts": "prettier"
+                    },
+                    "defaultFormatterOptions": {
+                        "js-beautify-html": {
+                            "wrap_attributes": "force-expand-multiline"
+                        },
+                        "prettyhtml": {
+                            "printWidth": 100,
+                            "singleQuote": false,
+                            "wrapAttributes": true,
+                            "sortAttributes": false
+                        }
+                    },
+                    "styleInitialIndent": false,
+                    "scriptInitialIndent": false
+                },
+                "trace": {
+                    "server": "verbose"
+                },
+                "dev": {
+                    "vlsPath": ""
+                }
+            },
+            "material-icon-theme": {
+                "showWelcomeMessage": true,
+                "showUpdateMessage": false,
+                "showReloadMessage": true,
+                "activeIconPack": "angular",
+                "files": {
+                    "associations": {}
+                },
+                "folders": {
+                    "associations": {},
+                    "theme": "specific",
+                    "color": "#90a4ae"
+                },
+                "languages": {
+                    "associations": {}
+                },
+                "opacity": 1,
+                "hidesExplorerArrows": false
+            },
+            "ruby": {
+                "locate": {
+                    "exclude": "{**/@(test|spec|tmp|.*),**/@(test|spec|tmp|.*)/**,**/*_spec.rb}",
+                    "include": "**/*.rb"
+                },
+                "interpreter": {
+                    "commandPath": "ruby"
+                },
+                "useLanguageServer": false,
+                "codeCompletion": false,
+                "intellisense": false,
+                "useBundler": false,
+                "pathToBundler": "bundle",
+                "rctComplete": {
+                    "commandPath": "rct-complete"
+                },
+                "lintDebounceTime": 500,
+                "lint": {},
+                "format": false
+            },
+            "sync": {
+                "gist": "8c7b2f863e2206588dde2ac7ea09534d",
+                "autoDownload": false,
+                "autoUpload": false,
+                "forceDownload": false,
+                "quietSync": false,
+                "askGistName": false,
+                "removeExtensions": true,
+                "syncExtensions": true
+            },
+            "formattingToggle": {
+                "activateFor": [
+                    "formatOnPaste",
+                    "formatOnSave"
+                ]
+            },
+            "org": {
+                "todoKeywords": [
+                    "TODO",
+                    "DONE"
+                ],
+                "addLeftZero": false,
+                "clockInOutSeparator": "--",
+                "clockTotalSeparator": " =>  "
+            }
+        }
+    },
+    "trace": "verbose",
+    "workspaceFolders": [
+        {
+            "uri": "file:///Users/jake/work/timeline",
+            "name": "timeline"
+        }
+    ]
+}
+
+
+[Trace - 6:21:30 PM] Received notification 'window/logMessage'.
+Params: {
+    "type": 4,
+    "message": "Vetur initialized"
+}
+
+
+Vetur initialized
+[Trace - 6:21:30 PM] Received response 'initialize - (0)' in 1731ms.
+Result: {
+    "capabilities": {
+        "textDocumentSync": 1,
+        "completionProvider": {
+            "resolveProvider": true,
+            "triggerCharacters": [
+                ".",
+                ":",
+                "<",
+                "\"",
+                "'",
+                "/",
+                "@",
+                "*"
+            ]
+        },
+        "signatureHelpProvider": {
+            "triggerCharacters": [
+                "("
+            ]
+        },
+        "documentFormattingProvider": true,
+        "hoverProvider": true,
+        "documentHighlightProvider": true,
+        "documentLinkProvider": {
+            "resolveProvider": false
+        },
+        "documentSymbolProvider": true,
+        "definitionProvider": true,
+        "referencesProvider": true,
+        "colorProvider": true
+    }
+}
+
+
+[Trace - 6:21:30 PM] Sending notification 'initialized'.
+Params: {}
+
+
+[Trace - 6:21:30 PM] Sending notification 'workspace/didChangeConfiguration'.
+Params: {
+    "settings": {
+        "vetur": {
+            "completion": {
+                "autoImport": true,
+                "useScaffoldSnippets": true,
+                "tagCasing": "kebab"
+            },
+            "grammar": {
+                "customBlocks": {
+                    "docs": "md",
+                    "i18n": "json"
+                }
+            },
+            "validation": {
+                "template": true,
+                "style": true,
+                "script": true
+            },
+            "format": {
+                "options": {
+                    "tabSize": 2,
+                    "useTabs": false
+                },
+                "defaultFormatter": {
+                    "html": "prettyhtml",
+                    "css": "prettier",
+                    "postcss": "prettier",
+                    "scss": "prettier",
+                    "less": "prettier",
+                    "stylus": "stylus-supremacy",
+                    "js": "prettier",
+                    "ts": "prettier"
+                },
+                "defaultFormatterOptions": {
+                    "js-beautify-html": {
+                        "wrap_attributes": "force-expand-multiline"
+                    },
+                    "prettyhtml": {
+                        "printWidth": 100,
+                        "singleQuote": false,
+                        "wrapAttributes": true,
+                        "sortAttributes": false
+                    }
+                },
+                "styleInitialIndent": false,
+                "scriptInitialIndent": false
+            },
+            "trace": {
+                "server": "verbose"
+            },
+            "dev": {
+                "vlsPath": ""
+            }
+        },
+        "emmet": {
+            "showExpandedAbbreviation": "always",
+            "showAbbreviationSuggestions": true,
+            "includeLanguages": {},
+            "variables": {},
+            "syntaxProfiles": {},
+            "excludeLanguages": [
+                "markdown"
+            ],
+            "extensionsPath": null,
+            "triggerExpansionOnTab": false,
+            "preferences": {},
+            "showSuggestionsAsSnippets": false,
+            "optimizeStylesheetParsing": true
+        },
+        "html": {
+            "experimental": {
+                "customData": []
+            },
+            "format": {
+                "enable": true,
+                "wrapLineLength": 120,
+                "unformatted": "wbr",
+                "contentUnformatted": "pre,code,textarea",
+                "indentInnerHtml": false,
+                "preserveNewLines": true,
+                "maxPreserveNewLines": null,
+                "indentHandlebars": false,
+                "endWithNewline": false,
+                "extraLiners": "head, body, /html",
+                "wrapAttributes": "auto"
+            },
+            "suggest": {
+                "angular1": false,
+                "ionic": false,
+                "html5": true
+            },
+            "validate": {
+                "scripts": true,
+                "styles": true
+            },
+            "autoClosingTags": true,
+            "trace": {
+                "server": "off"
+            }
+        },
+        "javascript": {
+            "referencesCodeLens": {
+                "enabled": false
+            },
+            "suggest": {
+                "completeFunctionCalls": false,
+                "names": true,
+                "paths": true,
+                "autoImports": true,
+                "completeJSDocs": true,
+                "enabled": true
+            },
+            "validate": {
+                "enable": true
+            },
+            "format": {
+                "enable": true,
+                "insertSpaceAfterCommaDelimiter": true,
+                "insertSpaceAfterConstructor": false,
+                "insertSpaceAfterSemicolonInForStatements": true,
+                "insertSpaceBeforeAndAfterBinaryOperators": true,
+                "insertSpaceAfterKeywordsInControlFlowStatements": true,
+                "insertSpaceAfterFunctionKeywordForAnonymousFunctions": true,
+                "insertSpaceBeforeFunctionParenthesis": false,
+                "insertSpaceAfterOpeningAndBeforeClosingNonemptyParenthesis": false,
+                "insertSpaceAfterOpeningAndBeforeClosingNonemptyBrackets": false,
+                "insertSpaceAfterOpeningAndBeforeClosingNonemptyBraces": true,
+                "insertSpaceAfterOpeningAndBeforeClosingTemplateStringBraces": false,
+                "insertSpaceAfterOpeningAndBeforeClosingJsxExpressionBraces": false,
+                "placeOpenBraceOnNewLineForFunctions": false,
+                "placeOpenBraceOnNewLineForControlBlocks": false
+            },
+            "implicitProjectConfig": {
+                "checkJs": false,
+                "experimentalDecorators": true
+            },
+            "suggestionActions": {
+                "enabled": true
+            },
+            "preferences": {
+                "quoteStyle": "auto",
+                "importModuleSpecifier": "auto"
+            },
+            "updateImportsOnFileMove": {
+                "enabled": "prompt"
+            },
+            "autoClosingTags": true
+        },
+        "typescript": {
+            "tsdk": null,
+            "disableAutomaticTypeAcquisition": false,
+            "npm": "/usr/local/bin/npm",
+            "check": {
+                "npmIsInstalled": true
+            },
+            "referencesCodeLens": {
+                "enabled": false
+            },
+            "implementationsCodeLens": {
+                "enabled": false
+            },
+            "tsserver": {
+                "log": "off",
+                "pluginPaths": [],
+                "trace": "off"
+            },
+            "suggest": {
+                "completeFunctionCalls": false,
+                "paths": true,
+                "autoImports": true,
+                "completeJSDocs": true,
+                "enabled": true
+            },
+            "reportStyleChecksAsWarnings": true,
+            "validate": {
+                "enable": true
+            },
+            "format": {
+                "enable": true,
+                "insertSpaceAfterCommaDelimiter": true,
+                "insertSpaceAfterConstructor": false,
+                "insertSpaceAfterSemicolonInForStatements": true,
+                "insertSpaceBeforeAndAfterBinaryOperators": true,
+                "insertSpaceAfterKeywordsInControlFlowStatements": true,
+                "insertSpaceAfterFunctionKeywordForAnonymousFunctions": true,
+                "insertSpaceBeforeFunctionParenthesis": false,
+                "insertSpaceAfterOpeningAndBeforeClosingNonemptyParenthesis": false,
+                "insertSpaceAfterOpeningAndBeforeClosingNonemptyBrackets": false,
+                "insertSpaceAfterOpeningAndBeforeClosingNonemptyBraces": true,
+                "insertSpaceAfterOpeningAndBeforeClosingTemplateStringBraces": false,
+                "insertSpaceAfterOpeningAndBeforeClosingJsxExpressionBraces": false,
+                "insertSpaceAfterTypeAssertion": false,
+                "placeOpenBraceOnNewLineForFunctions": false,
+                "placeOpenBraceOnNewLineForControlBlocks": false
+            },
+            "tsc": {
+                "autoDetect": "on"
+            },
+            "locale": null,
+            "suggestionActions": {
+                "enabled": true
+            },
+            "preferences": {
+                "quoteStyle": "auto",
+                "importModuleSpecifier": "auto"
+            },
+            "updateImportsOnFileMove": {
+                "enabled": "prompt"
+            },
+            "autoClosingTags": true,
+            "surveys": {
+                "enabled": true
+            }
+        },
+        "prettier": {
+            "disableLanguages": [
+                "vue"
+            ],
+            "eslintIntegration": false,
+            "tslintIntegration": false,
+            "stylelintIntegration": false,
+            "requireConfig": false,
+            "ignorePath": ".prettierignore",
+            "printWidth": 100,
+            "tabWidth": 2,
+            "singleQuote": false,
+            "trailingComma": "none",
+            "bracketSpacing": true,
+            "jsxBracketSameLine": false,
+            "parser": "babylon",
+            "semi": true,
+            "useTabs": false,
+            "proseWrap": "preserve",
+            "arrowParens": "avoid",
+            "jsxSingleQuote": false,
+            "htmlWhitespaceSensitivity": "css",
+            "endOfLine": "auto"
+        },
+        "stylusSupremacy": {}
+    }
+}
+
+
+[Trace - 6:21:30 PM] Sending notification 'textDocument/didOpen'.
+Params: {
+    "textDocument": {
+        "uri": "file:///Users/jake/work/timeline/assets/js/Sample.vue",
+        "languageId": "vue",
+        "version": 1,
+        "text": "<template>\n  <div></div>\n</template>\n<script lang=\"ts\">\nimport Vue from \"vue\";\nexport default class Sample extends Vue {\n  a: string;\n\n  sample_method() {\n    return this.a;\n  }\n}\n</script>\n\n"
+    }
+}
+
+
+[Trace - 6:21:30 PM] Sending request 'textDocument/documentLink - (1)'.
+Params: {
+    "textDocument": {
+        "uri": "file:///Users/jake/work/timeline/assets/js/Sample.vue"
+    }
+}
+
+
+[Trace - 6:21:30 PM] Sending request 'textDocument/documentColor - (2)'.
+Params: {
+    "textDocument": {
+        "uri": "file:///Users/jake/work/timeline/assets/js/Sample.vue"
+    }
+}
+
+
+[Trace - 6:21:30 PM] Received response 'textDocument/documentLink - (1)' in 7ms.
+Result: []
+
+
+[Trace - 6:21:30 PM] Received response 'textDocument/documentColor - (2)' in 6ms.
+Result: []
+
+
+[Trace - 6:21:31 PM] Received notification 'textDocument/publishDiagnostics'.
+Params: {
+    "uri": "file:///Users/jake/work/timeline/assets/js/Sample.vue",
+    "diagnostics": [
+        {
+            "range": {
+                "start": {
+                    "line": 6,
+                    "character": 2
+                },
+                "end": {
+                    "line": 6,
+                    "character": 3
+                }
+            },
+            "severity": 1,
+            "message": "Property 'a' has no initializer and is not definitely assigned in the constructor."
+        }
+    ]
+}
+
+
+[Trace - 6:21:34 PM] Sending request 'textDocument/hover - (3)'.
+Params: {
+    "textDocument": {
+        "uri": "file:///Users/jake/work/timeline/assets/js/Sample.vue"
+    },
+    "position": {
+        "line": 8,
+        "character": 14
+    }
+}
+
+
+[Trace - 6:21:34 PM] Received response 'textDocument/hover - (3)' in 18ms.
+Result: {
+    "range": {
+        "start": {
+            "line": 8,
+            "character": 2
+        },
+        "end": {
+            "line": 8,
+            "character": 15
+        }
+    },
+    "contents": [
+        {
+            "language": "ts",
+            "value": "(method) Sample.sample_method(): string"
+        }
+    ]
+}
+
+
+[Trace - 6:21:34 PM] Sending request 'textDocument/hover - (4)'.
+Params: {
+    "textDocument": {
+        "uri": "file:///Users/jake/work/timeline/assets/js/Sample.vue"
+    },
+    "position": {
+        "line": 8,
+        "character": 13
+    }
+}
+
+
+[Trace - 6:21:34 PM] Received response 'textDocument/hover - (4)' in 9ms.
+Result: {
+    "range": {
+        "start": {
+            "line": 8,
+            "character": 2
+        },
+        "end": {
+            "line": 8,
+            "character": 15
+        }
+    },
+    "contents": [
+        {
+            "language": "ts",
+            "value": "(method) Sample.sample_method(): string"
+        }
+    ]
+}
+
+
+[Trace - 6:21:34 PM] Sending request 'textDocument/documentLink - (5)'.
+Params: {
+    "textDocument": {
+        "uri": "file:///Users/jake/work/timeline/assets/js/Sample.vue"
+    }
+}
+
+
+[Trace - 6:21:34 PM] Sending notification '$/cancelRequest'.
+Params: {
+    "id": 5
+}
+
+
+[Trace - 6:21:34 PM] Sending request 'textDocument/documentLink - (6)'.
+Params: {
+    "textDocument": {
+        "uri": "file:///Users/jake/work/timeline/assets/js/Sample.vue"
+    }
+}
+
+
+[Trace - 6:21:34 PM] Received response 'textDocument/documentLink - (5)' in 1ms.
+Result: []
+
+
+[Trace - 6:21:34 PM] Received response 'textDocument/documentLink - (6)' in 1ms.
+Result: []
+
+
+[Trace - 6:21:36 PM] Sending request 'textDocument/hover - (7)'.
+Params: {
+    "textDocument": {
+        "uri": "file:///Users/jake/work/timeline/assets/js/Sample.vue"
+    },
+    "position": {
+        "line": 7,
+        "character": 0
+    }
+}
+
+
+[Trace - 6:21:36 PM] Received response 'textDocument/hover - (7)' in 7ms.
+Result: {
+    "contents": []
+}
+
+
+[Trace - 6:21:36 PM] Sending request 'textDocument/hover - (8)'.
+Params: {
+    "textDocument": {
+        "uri": "file:///Users/jake/work/timeline/assets/js/Sample.vue"
+    },
+    "position": {
+        "line": 7,
+        "character": 0
+    }
+}
+
+
+[Trace - 6:21:36 PM] Received response 'textDocument/hover - (8)' in 12ms.
+Result: {
+    "contents": []
+}
+
+
+[Trace - 6:21:36 PM] Sending request 'textDocument/hover - (9)'.
+Params: {
+    "textDocument": {
+        "uri": "file:///Users/jake/work/timeline/assets/js/Sample.vue"
+    },
+    "position": {
+        "line": 6,
+        "character": 1
+    }
+}
+
+
+[Trace - 6:21:36 PM] Received response 'textDocument/hover - (9)' in 9ms.
+Result: {
+    "contents": []
+}
+
+
+[Trace - 6:21:36 PM] Sending request 'textDocument/hover - (10)'.
+Params: {
+    "textDocument": {
+        "uri": "file:///Users/jake/work/timeline/assets/js/Sample.vue"
+    },
+    "position": {
+        "line": 6,
+        "character": 2
+    }
+}
+
+
+[Trace - 6:21:36 PM] Received response 'textDocument/hover - (10)' in 7ms.
+Result: {
+    "range": {
+        "start": {
+            "line": 6,
+            "character": 2
+        },
+        "end": {
+            "line": 6,
+            "character": 3
+        }
+    },
+    "contents": [
+        {
+            "language": "ts",
+            "value": "(property) Sample.a: string"
+        }
+    ]
+}
+
+
