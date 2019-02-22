@@ -1,0 +1,305 @@
+Command "html-languageserver --stdio" is not present on the path.
+Command "~/.vscode/extensions/octref.vetur-0.16.2/server/bin/vls" is present on the path.
+Found the following clients for /Users/jake/work/timeline/assets/js/Sample.vue: (server-id vls, priority 0)
+The following clients were selected based on priority: (server-id vls, priority 0)
+>>> vls:68718 status:starting(async)
+Content-Length: 2838
+
+{
+  "jsonrpc": "2.0",
+  "method": "initialize",
+  "params": {
+    "processId": 68539,
+    "rootPath": "/Users/jake/work/timeline/",
+    "rootUri": "file:///Users/jake/work/timeline/",
+    "capabilities": {
+      "workspace": {
+        "workspaceEdit": {
+          "documentChanges": true,
+          "resourceOperations": [
+            "create",
+            "rename",
+            "delete"
+          ]
+        },
+        "applyEdit": true,
+        "symbol": {
+          "symbolKind": {
+            "valueSet": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15,
+              16,
+              17,
+              18,
+              19,
+              20,
+              21,
+              22,
+              23,
+              24,
+              25,
+              26
+            ]
+          }
+        },
+        "executeCommand": {
+          "dynamicRegistration": false
+        },
+        "didChangeWatchedFiles": {
+          "dynamicRegistration": true
+        },
+        "workspaceFolders": true
+      },
+      "textDocument": {
+        "declaration": {
+          "linkSupport": true
+        },
+        "definition": {
+          "linkSupport": true
+        },
+        "implementation": {
+          "linkSupport": true
+        },
+        "typeDefinition": {
+          "linkSupport": true
+        },
+        "synchronization": {
+          "willSave": true,
+          "didSave": true,
+          "willSaveWaitUntil": true
+        },
+        "documentSymbol": {
+          "symbolKind": {
+            "valueSet": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15,
+              16,
+              17,
+              18,
+              19,
+              20,
+              21,
+              22,
+              23,
+              24,
+              25,
+              26
+            ]
+          },
+          "hierarchicalDocumentSymbolSupport": true
+        },
+        "formatting": {
+          "dynamicRegistration": true
+        },
+        "codeAction": {
+          "dynamicRegistration": true
+        },
+        "completion": {
+          "completionItem": {
+            "snippetSupport": true
+          }
+        },
+        "signatureHelp": {
+          "signatureInformation": {
+            "parameterInformation": {
+              "labelOffsetSupport": true
+            }
+          }
+        },
+        "documentLink": {
+          "dynamicRegistration": true
+        }
+      }
+    },
+    "initializationOptions": null
+  },
+  "id": 1
+}
+
+>>> vls:68718 status:starting(async)
+Content-Length: 1183
+
+{
+  "jsonrpc": "2.0",
+  "method": "workspace/didChangeConfiguration",
+  "params": {
+    "settings": {
+      "elixirLS": {
+        "dialyzerEnabled": false
+      },
+      "vetur": {
+        "validation": {
+          "template": true,
+          "script": true
+        },
+        "format": {
+          "defaultFormatter": {
+            "html": "prettyhtml",
+            "css": "prettier",
+            "postcss": "prettier",
+            "scss": "prettier",
+            "less": "prettier",
+            "js": "prettier",
+            "ts": "prettier",
+            "stylus": "stylus-supremacy"
+          },
+          "defaultFormatterOptions": {
+            "prettyhtml": {
+              "printWidth": 100,
+              "singleQuote": false
+            },
+            "prettier": {
+              "printWidth": 100
+            }
+          },
+          "options": {
+            "tabSize": 2
+          }
+        }
+      },
+      "html": {
+        "suggest": {
+          "html5": true
+        }
+      },
+      "prettier": {
+        "eslintIntegration": true,
+        "printWidth": 100,
+        "tabSize": 4
+      },
+      "typescript": {
+        "npm": "/usr/local/bin/npm"
+      }
+    }
+  }
+}
+
+<<<< vls:68718 status:starting
+{
+  "jsonrpc": "2.0",
+  "method": "window/logMessage",
+  "params": {
+    "type": 4,
+    "message": "Vetur initialized"
+  }
+}
+Vetur initialized
+<<<< vls:68718 status:starting
+{
+  "jsonrpc": "2.0",
+  "id": 1,
+  "result": {
+    "capabilities": {
+      "textDocumentSync": 1,
+      "completionProvider": {
+        "resolveProvider": true,
+        "triggerCharacters": [
+          ".",
+          ":",
+          "<",
+          "\"",
+          "'",
+          "/",
+          "@",
+          "*"
+        ]
+      },
+      "signatureHelpProvider": {
+        "triggerCharacters": [
+          "("
+        ]
+      },
+      "documentFormattingProvider": true,
+      "hoverProvider": true,
+      "documentHighlightProvider": true,
+      "documentLinkProvider": {
+        "resolveProvider": false
+      },
+      "documentSymbolProvider": true,
+      "definitionProvider": true,
+      "referencesProvider": true,
+      "colorProvider": true
+    }
+  }
+}
+>>> vls:68718(async)
+Content-Length: 69
+
+{
+  "jsonrpc": "2.0",
+  "method": "initialized",
+  "params": {
+  }
+}
+
+>>> vls:68718(async)
+Content-Length: 450
+
+{
+  "jsonrpc": "2.0",
+  "method": "textDocument/didOpen",
+  "params": {
+    "textDocument": {
+      "uri": "file:///Users/jake/work/timeline/assets/js/Sample.vue",
+      "languageId": "html",
+      "version": 0,
+      "text": "<template>\n  <div></div>\n</template>\n<script lang=\"ts\">\nimport Vue from \"vue\";\nexport default class Sample extends Vue {\n  a: string;\n\n  sample_method() {\n    return this.a;\n  }\n}\n</script>\n\n"
+    }
+  }
+}
+
+>>> vls:68718(async)
+Content-Length: 191
+
+{
+  "jsonrpc": "2.0",
+  "method": "textDocument/documentLink",
+  "params": {
+    "textDocument": {
+      "uri": "file:///Users/jake/work/timeline/assets/js/Sample.vue"
+    }
+  },
+  "id": 2
+}
+
+<<<< vls:68718
+{
+  "jsonrpc": "2.0",
+  "id": 2,
+  "result": []
+}
+<<<< vls:68718
+{
+  "jsonrpc": "2.0",
+  "method": "textDocument/publishDiagnostics",
+  "params": {
+    "uri": "file:///Users/jake/work/timeline/assets/js/Sample.vue",
+    "diagnostics": []
+  }
+}
