@@ -2,14 +2,14 @@ Command "html-languageserver --stdio" is not present on the path.
 Command "~/.vscode/extensions/octref.vetur-0.16.2/server/bin/vls" is present on the path.
 Found the following clients for /Users/jake/work/timeline/assets/js/Sample.vue: (server-id vls, priority 0)
 The following clients were selected based on priority: (server-id vls, priority 0)
->>> vls:68718 status:starting(async)
-Content-Length: 2838
+>>> vls:21742 status:starting(async)
+Content-Length: 2966
 
 {
   "jsonrpc": "2.0",
   "method": "initialize",
   "params": {
-    "processId": 68539,
+    "processId": 21482,
     "rootPath": "/Users/jake/work/timeline/",
     "rootUri": "file:///Users/jake/work/timeline/",
     "capabilities": {
@@ -137,12 +137,17 @@ Content-Length: 2838
         }
       }
     },
-    "initializationOptions": null
+    "initializationOptions": {
+      "workspaceFolders": [
+        "file:///Users/jake/work/timeline/",
+        "file:///Users/jake/work/timeline/"
+      ]
+    }
   },
   "id": 1
 }
 
->>> vls:68718 status:starting(async)
+>>> vls:21742 status:starting(async)
 Content-Length: 1183
 
 {
@@ -200,7 +205,7 @@ Content-Length: 1183
   }
 }
 
-<<<< vls:68718 status:starting
+<<<< vls:21742 status:starting
 {
   "jsonrpc": "2.0",
   "method": "window/logMessage",
@@ -210,7 +215,7 @@ Content-Length: 1183
   }
 }
 Vetur initialized
-<<<< vls:68718 status:starting
+<<<< vls:21742 status:starting
 {
   "jsonrpc": "2.0",
   "id": 1,
@@ -246,60 +251,5 @@ Vetur initialized
       "referencesProvider": true,
       "colorProvider": true
     }
-  }
-}
->>> vls:68718(async)
-Content-Length: 69
-
-{
-  "jsonrpc": "2.0",
-  "method": "initialized",
-  "params": {
-  }
-}
-
->>> vls:68718(async)
-Content-Length: 450
-
-{
-  "jsonrpc": "2.0",
-  "method": "textDocument/didOpen",
-  "params": {
-    "textDocument": {
-      "uri": "file:///Users/jake/work/timeline/assets/js/Sample.vue",
-      "languageId": "html",
-      "version": 0,
-      "text": "<template>\n  <div></div>\n</template>\n<script lang=\"ts\">\nimport Vue from \"vue\";\nexport default class Sample extends Vue {\n  a: string;\n\n  sample_method() {\n    return this.a;\n  }\n}\n</script>\n\n"
-    }
-  }
-}
-
->>> vls:68718(async)
-Content-Length: 191
-
-{
-  "jsonrpc": "2.0",
-  "method": "textDocument/documentLink",
-  "params": {
-    "textDocument": {
-      "uri": "file:///Users/jake/work/timeline/assets/js/Sample.vue"
-    }
-  },
-  "id": 2
-}
-
-<<<< vls:68718
-{
-  "jsonrpc": "2.0",
-  "id": 2,
-  "result": []
-}
-<<<< vls:68718
-{
-  "jsonrpc": "2.0",
-  "method": "textDocument/publishDiagnostics",
-  "params": {
-    "uri": "file:///Users/jake/work/timeline/assets/js/Sample.vue",
-    "diagnostics": []
   }
 }
